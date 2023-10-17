@@ -4,9 +4,11 @@ import io.namoosori.rest.entity.User;
 import io.namoosori.rest.service.UserService;
 import io.namoosori.rest.store.UserStore;
 import lombok.RequiredArgsConstructor;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 
+@Service
 @RequiredArgsConstructor
 public class UserServiceLogic implements UserService {
 
