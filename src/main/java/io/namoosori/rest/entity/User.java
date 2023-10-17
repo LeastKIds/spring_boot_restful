@@ -24,9 +24,4 @@ public class User {
     public static User sample() {
         return new User("Park", "park@namoosori.io");
     }
-
-    public static void main(String[] args) {
-        User user = new User("Kim", "kim@namoosori.io");
-        System.out.println(new Gson().toJson(user));
-    }
 }
